@@ -1,8 +1,8 @@
-"""Render the level1 chase music (music_sound_gamejam/music/canavar_escape.wav) from the team's original.
+"""Render the level1 chase music (audio/jam/music/canavar_escape.wav) from the team's original.
 
     python3 tools/audio/make_chase.py [out.wav] [--previews DIR]
 
-Base: music_sound_gamejam/music/canavar_escape_original.wav (Bosca Ceol, canavar_escape.ceol):
+Base: audio/jam/music/canavar_escape_original.wav (Bosca Ceol, canavar_escape.ceol):
 120 bpm, 16th grid, every Bosca pattern is exactly 1.0 s (8 steps). Motif E3 F3 D#4 . E4 . G#3 D4, key centre E.
   bars 0-2  pattern 0 + 8th-note drums           -> slow source  (we take bar 1: pattern 0 after pattern 0)
   bars 3-5  pattern 1 + heavier drums            -> mid source   (bar 4)
@@ -34,8 +34,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from synth import (Song, circular_delay, circular_reverb, colored_noise, drum_hit, fft_filter,  # noqa: E402
                    measure_lufs, note_to_midi, osc, exp_decay, repo_root, write_wav, SR)
 
-SRC = os.path.join(repo_root(), "music_sound_gamejam", "music", "canavar_escape_original.wav")
-OUT = os.path.join(repo_root(), "music_sound_gamejam", "music", "canavar_escape.wav")
+SRC = os.path.join(repo_root(), "audio", "jam", "music", "canavar_escape_original.wav")
+OUT = os.path.join(repo_root(), "audio", "jam", "music", "canavar_escape.wav")
 
 BPM = 120
 PAT = SR  # one Bosca pattern = 8 sixteenths = 1.0 s = 44100 samples

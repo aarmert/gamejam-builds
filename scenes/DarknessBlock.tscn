@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://diftucm75sxs5"]
 
 [ext_resource type="Script" path="res://scripts/darkness/darkness_block.gd" id="1_3aid2"]
-[ext_resource type="Texture2D" uid="uid://dtdncmd6dus80" path="res://blockholders/sprites/world_tileset.png" id="2_vun6i"]
+[ext_resource type="Texture2D" uid="uid://dtdncmd6dus80" path="res://assets/blockholders/sprites/world_tileset.png" id="2_vun6i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bboqu"]
 size = Vector2(11.25, 11.25)

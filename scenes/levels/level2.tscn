@@ -16,7 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://clvlexit2mno0" path="res://scenes/level_exit.tscn" id="16_f3b2k"]
 [ext_resource type="PackedScene" uid="uid://bsiot8o0bnp2g" path="res://scenes/killzone.tscn" id="17_kill"]
 [ext_resource type="PackedScene" uid="uid://dqqsb320dgdhl" path="res://scenes/levels/level1_Scene/sarmasik.tscn" id="18_vine"]
-[ext_resource type="FontFile" path="res://blockholders/fonts/PixelOperator8.ttf" id="19_font"]
+[ext_resource type="FontFile" path="res://assets/blockholders/fonts/PixelOperator8.ttf" id="19_font"]
 
 [sub_resource type="Gradient" id="Gradient_531e2"]
 offsets = PackedFloat32Array(0, 0.9819277)

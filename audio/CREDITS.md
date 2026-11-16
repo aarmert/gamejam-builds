@@ -28,7 +28,7 @@ Everything else under `audio/` is original. It was synthesised from scratch with
 
 ### Tracks based on the team's chase music (canavar_escape)
 
-The chase music `music_sound_gamejam/music/canavar_escape.wav` was made by the team in Bosca Ceol.
+The chase music `audio/jam/music/canavar_escape.wav` was made by the team in Bosca Ceol.
 Its project file is kept at `tools/audio/reference/canavar_escape.ceol`, and
 `tools/audio/parse_ceol.py` dumps its contents. The new tracks borrow its material:
 
@@ -99,5 +99,5 @@ momentary loudness (400 ms window; for sounds shorter than 0.4 s this reads low)
 
 ## Not used
 
-The older files in `music_sound_gamejam/sounds/` (`running_on_grass.mp3`, `running_on_stone ...mp3`,
+The older files in `audio/jam/sounds/` (`running_on_grass.mp3`, `running_on_stone ...mp3`,
 `heavy-walking.mp3`) have no recorded source or license, so the new system does not use them.

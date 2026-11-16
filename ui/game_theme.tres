@@ -1,7 +1,7 @@
 [gd_resource type="Theme" format=3]
 
-[ext_resource type="FontFile" path="res://blockholders/fonts/PixelOperator8.ttf" id="1_regular"]
-[ext_resource type="FontFile" path="res://blockholders/fonts/PixelOperator8-Bold.ttf" id="2_bold"]
+[ext_resource type="FontFile" path="res://assets/blockholders/fonts/PixelOperator8.ttf" id="1_regular"]
+[ext_resource type="FontFile" path="res://assets/blockholders/fonts/PixelOperator8-Bold.ttf" id="2_bold"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_normal"]
 content_margin_left = 16.0

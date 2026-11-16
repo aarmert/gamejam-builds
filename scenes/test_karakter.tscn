@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ctow644cold5d"]
 
-[ext_resource type="Texture2D" uid="uid://cfsd4p82x83g" path="res://blockholders/sprites/knight.png" id="1_a0xbm"]
+[ext_resource type="Texture2D" uid="uid://cfsd4p82x83g" path="res://assets/blockholders/sprites/knight.png" id="1_a0xbm"]
 [ext_resource type="PackedScene" uid="uid://cim6738qbdawp" path="res://scenes/healthbar.tscn" id="3_3el4n"]
 [ext_resource type="Script" uid="uid://blo01ekvxx03b" path="res://scripts/player/player_movement_component.gd" id="4_mvcpn"]
 [ext_resource type="Script" uid="uid://kkqauuhsk22w" path="res://scripts/player/player_jump_wall_component.gd" id="5_jwcpn"]

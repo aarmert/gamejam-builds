@@ -101,7 +101,7 @@ func _build_hint() -> void:
 	add_child(_hint_layer)
 	_hint_label = Label.new()
 	var ls := LabelSettings.new()
-	ls.font = load("res://blockholders/fonts/PixelOperator8.ttf")
+	ls.font = load("res://assets/blockholders/fonts/PixelOperator8.ttf")
 	ls.font_size = 16
 	ls.font_color = Color(0.9, 0.88, 1.0, 0.9)
 	ls.outline_size = 4

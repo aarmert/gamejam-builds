@@ -16,7 +16,7 @@ const Rules := preload("res://scripts/player/player_movement_rules.gd")
 const PLAYER := preload("res://scenes/asil_karakter.tscn")
 const MANAGER := preload("res://scripts/darkness/Manager_Darkness.gd")
 const DARK_BLOCK := preload("res://scenes/levels/level1_Scene/darkness_block_1_1.tscn")
-const CHASE_MUSIC := preload("res://music_sound_gamejam/music/canavar_escape.wav")
+const CHASE_MUSIC := preload("res://audio/jam/music/canavar_escape.wav")
 const MENU_SCENE := "res://scenes/main_menu.tscn"
 
 const ZOOM := 2.0

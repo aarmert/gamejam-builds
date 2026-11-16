@@ -19,7 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://su5il0fk476b" path="res://assets/DeepCaveBG-Layer3.png" id="17_jrfo0"]
 [ext_resource type="Script" uid="uid://cj6k0xewqaqe1" path="res://scripts/area_2d.gd" id="19_4fww7"]
 [ext_resource type="PackedScene" uid="uid://clvlexit2mno0" path="res://scenes/level_exit.tscn" id="22_exit"]
-[ext_resource type="AudioStream" uid="uid://de5xprbci7g1v" path="res://music_sound_gamejam/music/canavar_escape.wav" id="21_jrfo0"]
+[ext_resource type="AudioStream" uid="uid://de5xprbci7g1v" path="res://audio/jam/music/canavar_escape.wav" id="21_jrfo0"]
 [ext_resource type="Script" uid="uid://0drsqb7gc0fq" path="res://scripts/darkness/darkness_visuals.gd" id="dv_script"]
 [ext_resource type="Texture2D" uid="uid://boalhli5adnai" path="res://assets/darkness/darkness_body.png" id="dv_body"]
 

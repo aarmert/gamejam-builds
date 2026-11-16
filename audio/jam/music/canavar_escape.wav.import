@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://de5xprbci7g1v"
-path="res://.godot/imported/canavar_escape.wav-91dd14df200f9156705ce4f7b248b563.sample"
+path="res://.godot/imported/canavar_escape.wav-d0d87d1153fce40a336f8580ea23d003.sample"
 
 [deps]
 
-source_file="res://music_sound_gamejam/music/canavar_escape.wav"
-dest_files=["res://.godot/imported/canavar_escape.wav-91dd14df200f9156705ce4f7b248b563.sample"]
+source_file="res://audio/jam/music/canavar_escape.wav"
+dest_files=["res://.godot/imported/canavar_escape.wav-d0d87d1153fce40a336f8580ea23d003.sample"]
 
 [params]
 

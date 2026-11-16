@@ -4,7 +4,7 @@
     python3 tools/audio/make_music.py forest     # one track
 
 Musical source material comes from the team's monster chase theme
-(music_sound_gamejam/music/canavar_escape.wav, Bosca Ceol project canavar_escape.ceol):
+(audio/jam/music/canavar_escape.wav, Bosca Ceol project canavar_escape.ceol):
   - tempo 120 bpm, 16th-note grid, key centre E with a Phrygian flat-2 (E-F) half-step
   - lead motif (pattern 0):  E4 F4 D#5 . E5 . G#4 D5   (16ths)
   - pad motif (patterns 6/7): sustained half-step swing B <-> C

@@ -16,7 +16,7 @@ extends Node
 # Bir satir göründükten sonra atlama tusunun dikkate alinmadigi süre (yanlislikla çift atlamayi önler)
 @export var skip_grace_time: float = 0.35
 
-const STORY_FONT: FontFile = preload("res://blockholders/fonts/PixelOperator8.ttf")
+const STORY_FONT: FontFile = preload("res://assets/blockholders/fonts/PixelOperator8.ttf")
 const STORY_FONT_SIZE := 24
 const HINT_FONT_SIZE := 16
 

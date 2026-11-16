@@ -12,7 +12,7 @@ Lost Soul was made for the KIT Clementine game jam by:
 ## Original work (made by the team)
 
 - Game code, level design and story.
-- Chase music `music_sound_gamejam/music/canavar_escape*.wav` (written in Bosca Ceol; project file in
+- Chase music `audio/jam/music/canavar_escape*.wav` (written in Bosca Ceol; project file in
   `tools/audio/reference/`).
 - Everything under `audio/` except the footsteps: synthesised with the scripts in `tools/audio/`.
   Details in `audio/CREDITS.md`.
@@ -24,8 +24,8 @@ Lost Soul was made for the KIT Clementine game jam by:
 | Files | Source | Licence | Status |
 |---|---|---|---|
 | `audio/footsteps/*.wav` | Kenney, Impact Sounds (kenney.nl) | CC0 1.0 | confirmed, see `audio/CREDITS.md` |
-| `blockholders/` (knight, slimes, coin, fruit, platforms, sounds, `time_for_adventure.mp3`) | looks like the Brackeys Platformer Bundle | CC0 if so | **to confirm** |
-| `blockholders/fonts/PixelOperator8*.ttf` | Pixel Operator by Jayvee Enaguas | CC0 if so | **to confirm** |
+| `assets/blockholders/` (knight, slimes, coin, fruit, platforms, sounds, `time_for_adventure.mp3`) | looks like the Brackeys Platformer Bundle | CC0 if so | **to confirm** |
+| `assets/blockholders/fonts/PixelOperator8*.ttf` | Pixel Operator by Jayvee Enaguas | CC0 if so | **to confirm** |
 | `assets/parallax-demon-woods-*.png` | looks like "Demon Woods" parallax background by Aethrall (itch.io) | unknown | **to confirm** |
 
 ## Origin not recorded yet

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dxflpcwpdsve3"]
 
 [ext_resource type="PackedScene" uid="uid://ctow644cold5d" path="res://scenes/test_karakter.tscn" id="1_ssejl"]
-[ext_resource type="Texture2D" uid="uid://dtdncmd6dus80" path="res://blockholders/sprites/world_tileset.png" id="2_fa8wy"]
+[ext_resource type="Texture2D" uid="uid://dtdncmd6dus80" path="res://assets/blockholders/sprites/world_tileset.png" id="2_fa8wy"]
 [ext_resource type="PackedScene" uid="uid://bsiot8o0bnp2g" path="res://scenes/killzone.tscn" id="3_jqbve"]
 [ext_resource type="PackedScene" uid="uid://diftucm75sxs5" path="res://scenes/DarknessBlock.tscn" id="4_f0rl4"]
 [ext_resource type="PackedScene" path="res://scenes/orbit/dash_orbiti.tscn" id="5_cihii"]

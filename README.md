@@ -45,8 +45,8 @@ the repository) and export from *Project → Export*.
 | Path | Contents |
 |---|---|
 | `scenes/`, `scripts/` | the game: levels in `scenes/levels/`, player in `scripts/player/`, the cave darkness in `scripts/darkness/` |
-| `assets/`, `blockholders/` | sprites, tilesets, fonts |
-| `audio/`, `music_sound_gamejam/` | music and sound; `audio/CREDITS.md` explains how it was made |
+| `assets/`, `assets/blockholders/` | sprites, tilesets, fonts |
+| `audio/`, `audio/jam/` | music and sound; `audio/CREDITS.md` explains how it was made |
 | `tools/` | scripts that generate the audio and the orb sprites |
 | `trials/` | an unfinished extra mode, hidden from the menu |
 

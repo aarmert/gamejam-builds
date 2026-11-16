@@ -8,7 +8,7 @@ extends SceneTree
 const GameScript := preload("res://trials/scripts/trials_game.gd")
 const Builder := preload("res://trials/scripts/chapter_builder.gd")
 const GAME_SCENE := "res://trials/scenes/trials_chapter1.tscn"
-const FONT := preload("res://blockholders/fonts/PixelOperator8.ttf")
+const FONT := preload("res://assets/blockholders/fonts/PixelOperator8.ttf")
 const T := 32
 const MARGIN := 1
 
