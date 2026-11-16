@@ -1,9 +1,11 @@
 # Lost Soul
 
-A short, dark pixel-art platformer about a small soul running from the darkness. Made in Godot 4.6 for the
-KIT Clementine game jam.
+**[▶ Play in the browser](https://aarmert.github.io/lost-soul/)** · [Windows download](https://github.com/aarmert/lost-soul/releases/latest)
 
-![Forest](docs/screenshots/forest.png)
+A short, dark pixel-art platformer about a small soul running from a living darkness. Godot 4, made by a
+team of four for the KIT Clementine game jam.
+
+![The darkness chasing the player through the cave](docs/cave_chase.gif)
 
 ## The game
 
@@ -18,7 +20,29 @@ Three levels, played in order:
 3. **Lantern cave.** You find a flashlight with a small battery. Shadows freeze and dissolve in its beam,
    walls of darkness burn away, and some guards can only be pushed back for a moment.
 
-![Cave](docs/screenshots/cave.png)
+![Forest](docs/screenshots/forest.png)
+
+## Who did what
+
+**My part (aarmert):**
+
+- the level design of the cave level,
+- the logic of how the darkness spreads and chases the player, written in GDScript
+  (`scripts/darkness/Manager_Darkness.gd`),
+- the music.
+
+**The rest of the team:**
+
+| | |
+|---|---|
+| Maya ([Maya-Tukel](https://github.com/Maya-Tukel)) | pixel art |
+| Barkın ([reignthevth](https://github.com/reignthevth)) | programming, design of the first level |
+| Alparslan ([AlparslanSemiz](https://github.com/AlparslanSemiz)) | programming, design of the third level |
+
+**After the jam** I kept working on the game with Claude (Anthropic's AI coding assistant) to make it more
+playable: the forest and lantern-cave levels were reworked, the chase was retuned and the darkness got its
+creature look, the chase music was extended on top of the original track, and sound effects, menus and
+display scaling were added. The jam version is the state of the team repository at commit `679652f`.
 
 ## Controls
 
@@ -33,20 +57,21 @@ Three levels, played in order:
 
 Orbs: gold lets you jump once more in the air, teal gives you a dash even while dash is on cooldown.
 
-## Running it
+## Running it from source
 
 Open the folder in **Godot 4.6** and press Play (the main scene is `scenes/main_menu.tscn`).
 
-To build for Windows, add a "Windows Desktop" export preset in the editor (export presets are not kept in
-the repository) and export from *Project → Export*.
+Export presets are not kept in the repository; add a "Windows Desktop" or "Web" preset in the editor and
+export from *Project → Export*.
 
 ## Repository layout
 
 | Path | Contents |
 |---|---|
 | `scenes/`, `scripts/` | the game: levels in `scenes/levels/`, player in `scripts/player/`, the cave darkness in `scripts/darkness/` |
-| `assets/`, `assets/blockholders/` | sprites, tilesets, fonts |
-| `audio/`, `audio/jam/` | music and sound; `audio/CREDITS.md` explains how it was made |
+| `assets/` | sprites, tilesets, fonts |
+| `audio/` | music and sound; the team's jam music is in `audio/jam/`, and `audio/CREDITS.md` explains how the rest was made |
+| `shaders/`, `ui/` | shaders and the UI theme |
 | `tools/` | scripts that generate the audio and the orb sprites |
 | `trials/` | an unfinished extra mode, hidden from the menu |
 
