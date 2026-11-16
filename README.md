@@ -1,6 +1,6 @@
 # Lost Soul
 
-**[▶ Play in the browser](https://aarmert.github.io/lost-soul/)** · [Windows download](https://github.com/aarmert/lost-soul/releases/latest)
+**[▶ Play in the browser](https://aarmert.github.io/lost-soul/)** · [Windows download](https://github.com/aarmert/lost-soul/releases/latest/download/LostSoul-windows.zip)
 
 A short, dark pixel-art platformer about a small soul running from a living darkness. Godot 4, made by a
 team of four for the KIT Clementine game jam.
